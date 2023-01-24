@@ -10,3 +10,4 @@ Feature: Demo Feature
             | TestID  | SearchItem | ExpectedURL |
             | DEMO_TC001 | WDIO    | https://webdriver.io/  |
             | DEMO_TC002 | Deloitte    | https://www2.deloitte.com/us/en.html |
+            | DEMO_TC003 | SAP    | https://www.sap.com/sea/index.html |
