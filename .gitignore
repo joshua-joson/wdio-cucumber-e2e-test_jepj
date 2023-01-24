@@ -1,6 +1,7 @@
 # Project specific
 allure-results
 debug
+demo2.feature
 
 # Logs
 logs
