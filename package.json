@@ -8,7 +8,7 @@
         "test": "echo Hello WDIO",
         "wdio": "wdio run ./wdio.conf.ts",
         "demo": "npx wdio wdio.conf.ts --cucumberOpts.tagExpression='@demo'",
-        "smoke":"npx wdio wdio.conf.ts --cucumberOpts.tagExpression='@smoke'"
+        "smoke": "npx wdio wdio.conf.ts --cucumberOpts.tagExpression='@smoke'"
     },
     "keywords": [
         "wdio",
@@ -27,6 +27,7 @@
         "@wdio/spec-reporter": "^8.1.2",
         "chai": "^4.3.7",
         "chromedriver": "^109.0.0",
+        "dotenv": "^16.0.3",
         "ts-node": "^10.9.1",
         "typescript": "^4.9.4",
         "wdio-chromedriver-service": "^8.0.1"

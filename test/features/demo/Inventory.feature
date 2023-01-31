@@ -1,6 +1,7 @@
 Feature: Inventory
 
-    @demo @smoke
+    # @demo 
+    # @smoke
     Scenario Outline: Demo Inventory 
         Given Login to inventory system
         Then Inventory page should list <NumberOfProducts>

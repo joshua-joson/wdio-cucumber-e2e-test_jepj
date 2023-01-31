@@ -1,3 +1,5 @@
+// let headless = process.env.HEADLESS
+// console.log(`Value of headless flag: ${headless}`)
 import type { Options } from '@wdio/types'
 
 export const config: Options.Testrunner = {
@@ -69,8 +71,15 @@ export const config: Options.Testrunner = {
         maxInstances: 5,
         // browserName: 'MicrosoftEdge',
         browserName: 'chrome',
+
+        //For running headless. Check out the WDIO udemy course "Running test headless mode for more info"
+        // "goog:chromeOptions": {
+        //     args: headless.toLowerCase() === "Y" ?
+        //     ["--disable-web-security", "--headless", "--disable-dev-shm-usage"
+        //     ,"--no-sandbox","--window-size= 1920, 1080"] : []
+        // },
         "goog:chromeOptions": {
-            args:["--disable-web-security"]
+            args:["--disable-web-security" ]
         },
         acceptInsecureCerts: true,
         timeouts: {implicit: 15000, pageLoad: 20000, script: 30000},
