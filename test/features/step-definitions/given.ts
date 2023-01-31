@@ -6,7 +6,7 @@ import chai from "chai";
 Given(/^Login to inventory system$/, async function() {
 
     console.log(`Test username: ${process.env.TEST_USERNAME}`)
-    console.log(`Test password: ${process.env.TEST_PASSWORD}`)
+    console.log(`Test password: ${process.env.TEST_PASSWORDD}`)
 
     // Launch browser to inventory app
     await browser.url("https://www.saucedemo.com/")
