@@ -1,0 +1,26 @@
+{
+  "sessionId": "c72eb0f7f6c46c32067101ed2addee9a",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "109.0.5414.120",
+    "chrome": {
+      "chromedriverVersion": "109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172})",
+      "userDataDir": "C:\\Users\\jojoson\\AppData\\Local\\Temp\\scoped_dir10048_2146798447"
+    },
+    "goog:chromeOptions": { "debuggerAddress": "localhost:59774" },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": { "implicit": 0, "pageLoad": 300000, "script": 30000 },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true
+  }
+}
+
+

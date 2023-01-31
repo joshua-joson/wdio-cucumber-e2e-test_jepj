@@ -1,0 +1,31 @@
+{
+  "sessionId": "3161b9c8db83c8ae3614287f1ff03c56",
+  "elementId": "84b7a6f5-0af0-4383-b280-9b21d3e15317",
+  "element-6066-11e4-a52e-4f735466cecf": "84b7a6f5-0af0-4383-b280-9b21d3e15317",
+  "selector": "[name=q]",
+  "parent": {
+    "sessionId": "3161b9c8db83c8ae3614287f1ff03c56",
+    "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "109.0.5414.120",
+      "chrome": {
+        "chromedriverVersion": "109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172})",
+        "userDataDir": "C:\\Users\\jojoson\\AppData\\Local\\Temp\\scoped_dir3584_1642805468"
+      },
+      "goog:chromeOptions": { "debuggerAddress": "localhost:60122" },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {},
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": { "implicit": 15000, "pageLoad": 20000, "script": 30000 },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+    }
+  },
+  "isReactElement": false
+}
