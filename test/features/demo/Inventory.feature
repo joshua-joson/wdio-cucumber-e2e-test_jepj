@@ -1,6 +1,6 @@
 Feature: Inventory
 
-    # @demo 
+    @demo 
     # @smoke
     Scenario Outline: Demo Inventory 
         Given Login to inventory system
